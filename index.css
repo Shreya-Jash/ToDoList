@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    padding: 20px;
+}
+input{
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    box-sizing: border-box;
+    border-bottom: 2px solid rgb(199, 126, 36);
+    margin-bottom: 5px; 
+}
+button{
+    background-color: rgb(91, 52, 3);
+    color: bisque;
+    font-weight: bold;
+    border-radius: 6px;
+    border:none;
+    padding: 5px 10px 5px 10px;
+}

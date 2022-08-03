@@ -4,6 +4,7 @@ body{
     padding: 20px;
     align-items: center;
     background-image: "background.jpg";
+    overflow-x: hidden;
 }
 header{
     text-align: center;
@@ -49,7 +50,6 @@ ul li{
     font-size: 18px;
     transition: 0.2s;
     list-style: none;
-    display: flex;
 
 }
 
@@ -62,4 +62,22 @@ ul li{
 }
 .close:hover{
     background-color: red;
+}
+
+@media only screen and (max-width: 600px)
+{
+    header{
+        width: 100%;
+    }
+    input{
+        margin-left: 40px;
+    }
+    button{
+        margin-left: 40px;
+    }
+    ul{
+        justify-content: left;
+        margin-left: 0px;
+        margin-right: 5px;
+    }
 }

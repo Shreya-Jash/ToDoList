@@ -19,7 +19,8 @@ function renderTask(){
             //let listItems= ""
             const li =document.createElement("li")
             const closebtn=document.createElement("Button")
-            closebtn.innerHTML="X"
+            closebtn.className="close"
+            closebtn.innerHTML="&#10003"
             //add a list item
             for(let i=0;i<saveTask.length;i++)
             {

@@ -33,17 +33,32 @@ button{
     margin: 0px 0px 20px 110px;
     transition: 0.3s;
 }
-ul{
-    margin-left: 90px;
+div{
+    padding-left: 4px;
 }
-.closebtn{
-    background-color: rgb(244, 19, 19);
-    color: bisque;
-    font-weight: bold;
-    font-size: 15px;
-    border-radius: 6px;
-    border:none;
-    padding: 5px 20px 5px 20px;
-    margin: 0px 0px 20px 110px;
-    transition: 0.3s;
+ul{
+    margin-left: 80px;
+    margin-right: 200px;
+}
+ul li{
+    position: relative;
+    margin-bottom: 4px;
+    padding: 8px 8px 12px 6px;
+    background-color: rgb(241, 241, 220);
+    font-size: 18px;
+    transition: 0.2s;
+    list-style: none;
+    display: flex;
+
+}
+
+.close{
+    position: absolute;
+    margin-top: 5px;
+    margin-right: 4px;
+    right: 0;
+    top: 0px;
+}
+.close:hover{
+    background-color: red;
 }

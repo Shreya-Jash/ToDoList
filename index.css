@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    min-width: 250px;
     padding: 20px;
     align-items: center;
     background-image: "background.jpg";
